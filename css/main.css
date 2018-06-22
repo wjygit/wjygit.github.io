@@ -1253,6 +1253,9 @@ pre .javascript .function {
   -o-transform: rotate(30deg);
   transform: rotate(30deg);
 }
+.post-button {
+  margin-top: 20px !important;
+}
 .use-motion .post-block,
 .use-motion .pagination,
 .use-motion .comments {
@@ -1930,7 +1933,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #b3db6b;
+  background: #47ffda;
 }
 .links-of-blogroll {
   font-size: 13px;

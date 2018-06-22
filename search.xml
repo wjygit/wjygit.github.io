@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[测试]]></title>
-    <url>%2F2018%2F01%2F08%2F6.13%2F</url>
-    <content type="text"></content>
+    <title><![CDATA[瞎写]]></title>
+    <url>%2F2018%2F06%2F15%2F6.15%2F</url>
+    <content type="text"><![CDATA[闲话Live Photos 是 iOS 9 的一个新特性，它提供相对于传统照片更生动的展现方式。当用户按下拍照键的时候，照片 APP 会捕捉比传统照片更多的内容，包括声音和更多的帧。当用户浏览这些照片时，他们能与这些照片交互并且回放那些被捕捉的内容，这样让照片看起来更加生动。 iOS 9.1 提供了与 Live Photos 交互的 API，还可以将这些数据导出，用作分享。新提供的 Photos framework 可以从 PHImageManager 对象中取得 PHLivePhoto 的实例。这个对象可以用来表示 Live Photo 中的数据。你可以使用 PHLivePhotoView 对象来现实 Live Photo 的内容。PHLivePhotoView 用于展示图片，处理用户交互，还有对内容显示的处理。 你还可以使用 PHAssetResource 来访问 PHLivePhoto 来进行共享操作。你可以使用 PHImageManager 或 UIImagePickerController 来从用户的照片库中请求 PHLivePhoto 对象。如果你还在开发一个 Extension，你还可以使用 NSItemProvider 对象来获取 PHLivePhoto 对象。在接受共享的一方，你可以通过发送过来的文件，来重建 PHLivePhoto对象。12345function repeatString(str, n) &#123;return new Array(n + 1).join(str);&#125;console.log(repeatString("abc", 3)); // abcabcabcconsole.log(repeatString("Hi", 5)); // HiHiHiHiHi 准备工作PHLivePhotoView需要导入PhotosUI]]></content>
       <tags>
         <tag>js</tag>
+        <tag>es6</tag>
       </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[欢迎来到我的个人博客]]></title>
+    <url>%2F2018%2F01%2F08%2F%E6%AC%A2%E8%BF%8E%E9%A1%B5%2F</url>
+    <content type="text"></content>
   </entry>
 </search>

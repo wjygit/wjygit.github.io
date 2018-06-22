@@ -3,7 +3,14 @@
 
     <url>
         <loc>http://yoursite.com/tags/js/</loc>
-        <lastmod>2018-06-13T09:37:46.561Z</lastmod>
+        <lastmod>2018-06-22T09:19:07.593Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://yoursite.com/tags/es6/</loc>
+        <lastmod>2018-06-22T09:19:07.593Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
