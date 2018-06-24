@@ -476,6 +476,9 @@ p.copy-right a{
 	}
 }
 @media (max-width:768px){
+	.bannerhead p{
+	    color:#23171F;
+	}
 	.container {
 		width:80%;
 	}
@@ -562,6 +565,9 @@ p.copy-right a{
 	}
 }
 @media (max-width:640px){
+	.bannerhead p{
+	    color:#23171F;
+	}
 	.container {
 		width:80%;
 	}
@@ -665,6 +671,9 @@ p.copy-right a{
 	}
 }
 @media (max-width:480px){
+	.bannerhead p{
+	    color:#23171F;
+	}
 	.container {
 		width:90%;
 	}
@@ -793,6 +802,9 @@ p.copy-right a{
 	}
 }
 @media (max-width:320px){
+	.bannerhead p{
+	    color:#23171F;
+	}
 	.container {
 		width:90%;
 	}
