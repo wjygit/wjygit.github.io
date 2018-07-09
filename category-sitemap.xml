@@ -1,43 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="sitemap.xsl"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
     <url>
-        <loc>http://yoursite.com/tags/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1/</loc>
-        <lastmod>2018-07-09T01:21:18.837Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
+        <loc>http://yoursite.com</loc>
+        <changefreq>daily</changefreq>
+        <priority>1</priority>
     </url>
 
     <url>
-        <loc>http://yoursite.com/tags/%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/</loc>
+        <loc>http://yoursite.com/categories/%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/</loc>
         <lastmod>2018-07-09T01:21:52.481Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://yoursite.com/tags/String/</loc>
-        <lastmod>2018-07-09T01:22:17.275Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://yoursite.com/tags/Array/</loc>
+        <loc>http://yoursite.com/categories/JavaScript/</loc>
         <lastmod>2018-07-09T01:22:54.733Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://yoursite.com/tags/JavaScript/</loc>
-        <lastmod>2018-07-09T01:22:54.733Z</lastmod>
+        <loc>http://yoursite.com/categories/%E5%85%BC%E5%AE%B9/</loc>
+        <lastmod>2018-07-09T01:23:36.697Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://yoursite.com/tags/CSS/</loc>
+        <loc>http://yoursite.com/categories/CSS/</loc>
         <lastmod>2018-07-09T01:25:40.064Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>

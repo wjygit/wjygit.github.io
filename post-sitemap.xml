@@ -7,16 +7,56 @@
     </url>
 
     <url>
-        <loc>http://yoursite.com/2018/06/15/6.15/</loc>
-        <lastmod>2018-06-22T09:19:07.593Z</lastmod>
+        <loc>http://yoursite.com/2018/06/03/css%E5%B0%8F%E7%BB%93/</loc>
+        <lastmod>2018-07-09T01:25:40.064Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
     </url>
 
     <url>
-        <loc>http://yoursite.com/2018/01/08/%E6%AC%A2%E8%BF%8E%E9%A1%B5/</loc>
-        <lastmod>2018-06-19T06:02:07.147Z</lastmod>
+        <loc>http://yoursite.com/2018/06/02/%E6%AC%A2%E8%BF%8E%E9%A1%B5/</loc>
+        <lastmod>2018-07-09T01:25:37.036Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://yoursite.com/2018/06/10/%E5%85%BC%E5%AE%B9%E9%97%AE%E9%A2%98/</loc>
+        <lastmod>2018-07-09T01:23:36.697Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://yoursite.com/2018/06/16/Array%E6%96%B9%E6%B3%95/</loc>
+        <lastmod>2018-07-09T01:22:54.733Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://yoursite.com/2018/06/23/String%E6%96%B9%E6%B3%95/</loc>
+        <lastmod>2018-07-09T01:22:17.275Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://yoursite.com/2018/06/30/%E5%89%8D%E7%AB%AF%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/</loc>
+        <lastmod>2018-07-09T01:21:52.481Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://yoursite.com/2018/07/07/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1/</loc>
+        <lastmod>2018-07-09T01:21:18.837Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
