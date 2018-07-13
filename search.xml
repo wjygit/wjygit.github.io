@@ -8,8 +8,8 @@
         <category>JavaScript</category>
       </categories>
       <tags>
-        <tag>JavaScript</tag>
         <tag>面向对象</tag>
+        <tag>JavaScript</tag>
       </tags>
   </entry>
   <entry>
@@ -43,8 +43,8 @@
         <category>JavaScript</category>
       </categories>
       <tags>
-        <tag>Array</tag>
         <tag>JavaScript</tag>
+        <tag>Array</tag>
       </tags>
   </entry>
   <entry>
@@ -61,7 +61,7 @@
   <entry>
     <title><![CDATA[CSS小结]]></title>
     <url>%2F2018%2F06%2F03%2Fcss%E5%B0%8F%E7%BB%93%2F</url>
-    <content type="text"><![CDATA[盒模型123盒子模型有两种，IE盒子模型、W3C盒子模型;盒子模型的构成部分：内容（content），内边距（padding），边框（border），外边距（margin）;两者的区别：IE盒子模型把border和padding也计算在content内； 常用选择器1234567891011121314151617181920id选择器（#id）;类选择器（.class);标签选择器（div）;相邻选择器（h1+p）；子选择器（ul&gt;li）；后代选择器（li a）；通配符（*）；属性选择器（a[href='']）;伪类选择器(p:first-of-type 选择属于其父元素的首个&lt;p&gt;元素的每个&lt;p&gt;元素p:last-of-type 选择属于其父元素的最后&lt;p&gt;元素的每个&lt;p&gt;元素p:only-of-type 选择属于其父元素唯一的&lt;p&gt;元素的每个&lt;p&gt;元素p:only-child 选择属于其父元素的唯一子元素的每个&lt;p&gt;元素p:nth-child(2) 选择属于其父元素的第二个子元素的每个&lt;p&gt;元素:after 在元素之前添加内容,也可以用来做清除浮动:before 在元素之后添加内容:enabled :disabled 控制表单控件的禁用状态:checked 单选框或复选框被选中) 优先级123优先级就近原则，同权重样式定义最近者为准；载入样式以最后载入的定位为准；优先级：!important &gt; id &gt; class &gt; tag &gt; *(通配符) display的值与作用12345678block:设定元素变为块级元素，占据一整行，可设置宽高；inline-block：设定元素为行内块元素，可设置宽高，一行能显示多个；inline：行内元素，不可设置宽高，一行可显示多个；none：设置元素不可见；flex：开启弹性布局；table：作为块级表格显示；list-item：像块级元素一样显示，并添加样式列表标记；inherit：从父元素继承display 属性的值 position的值与作用12345678910圆角：border-radius阴影：box-shadow文字阴影：text-shadow线性渐变：linear-gradient从父元素继承position 属性的值：inherittransform:rotate(90deg) //旋转scale(0.5) //缩放translate(0px,-30px) //定位skew(-90deg,0deg) //倾斜 visibility:collapse与display:none1234两者都可以使元素隐藏不可见；区别：display:none渲染时不占据任何空间；visibility:hidden渲染时元素继续占据空间，只是内容不可见； 清除浮动的几种方式清除浮动是为了清除使用浮动的元素造成的影响；浮动的元素，高度会塌陷，对布局不利。解决方法：1.给父级div设置高度height2.使父级div也一起浮动3.给父级元素设置 overf:hidden;4.使用clearfix类名1234567891011.clearfix:before,.clearfix:after&#123; content:""; display:block; height:0; line-height:0; visibility:hidden; clear:both&#125;.clearfix&#123; *zoom:1;&#125; div的几种居中方式水平居中1.给div设置宽度，并使用margin：0 auto;123456 div&#123; width:100px; height:100px; margin:0 auto; background:hotpink;&#125; 2.使用绝对定位12345678div&#123; position:absolute； width:100px; height:100px; left:50%; margin-left:-50px; background-color:skyblue;&#125; 水平垂直居中1.使用绝对定位12345678910div&#123; position:absolute； width:100px; height:100px; left:50%; top:50%; margin-left:-50px; margin-top:-50px; background-color:red;&#125; 2.使用transform属性123456789div&#123; position:absolute； width:100px; height:100px; left:50%; top:50%; transform:translate(-50%,-50%) background-color:red;&#125; 3.使用弹性布局12345678910.container&#123; display:flex; align-items:center; justify-content:center;&#125;.container div&#123; width:100px; height:100px; background-color:hotpink;&#125;]]></content>
+    <content type="text"><![CDATA[盒模型123盒子模型有两种，IE盒子模型、W3C盒子模型;盒子模型的构成部分：内容（content），内边距（padding），边框（border），外边距（margin）;两者的区别：IE盒子模型把border和padding也计算在content内； 常用选择器1234567891011121314151617181920id选择器（#id）;类选择器（.class);标签选择器（div）;相邻选择器（h1+p）；子选择器（ul&gt;li）；后代选择器（li a）；通配符（*）；属性选择器（a[href='']）;伪类选择器(p:first-of-type 选择属于其父元素的首个&lt;p&gt;元素的每个&lt;p&gt;元素p:last-of-type 选择属于其父元素的最后&lt;p&gt;元素的每个&lt;p&gt;元素p:only-of-type 选择属于其父元素唯一的&lt;p&gt;元素的每个&lt;p&gt;元素p:only-child 选择属于其父元素的唯一子元素的每个&lt;p&gt;元素p:nth-child(2) 选择属于其父元素的第二个子元素的每个&lt;p&gt;元素:after 在元素之前添加内容,也可以用来做清除浮动:before 在元素之后添加内容:enabled :disabled 控制表单控件的禁用状态:checked 单选框或复选框被选中) 优先级123优先级就近原则，同权重样式定义最近者为准；载入样式以最后载入的定位为准；优先级：!important &gt; id &gt; class &gt; tag &gt; *(通配符) display的值与作用12345678block:设定元素变为块级元素，占据一整行，可设置宽高；inline-block：设定元素为行内块元素，可设置宽高，一行能显示多个；inline：行内元素，不可设置宽高，一行可显示多个；none：设置元素不可见；flex：开启弹性布局；table：作为块级表格显示；list-item：像块级元素一样显示，并添加样式列表标记；inherit：从父元素继承display 属性的值 position的值与作用12345relative：相对定位，相对于正常位置进行定位absolute：绝对定位，相对于父元素中最近一个position不为 static（静态，无定位）定位；fixed：相对于浏览器窗口定位；static：默认，无定位；inherit：继承父元素的定位； CSS3的新特性123456789圆角：border-radius阴影：box-shadow文字阴影：text-shadow线性渐变：linear-gradienttransform:rotate(90deg) //旋转scale(0.5) //缩放translate(0px,-30px) //定位skew(-90deg,0deg) //倾斜 visibility:collapse与display:none1234两者都可以使元素隐藏不可见；区别：display:none渲染时不占据任何空间；visibility:hidden渲染时元素继续占据空间，只是内容不可见； 清除浮动的几种方式清除浮动是为了清除使用浮动的元素造成的影响；浮动的元素，高度会塌陷，对布局不利。解决方法：1.给父级div设置高度height2.使父级div也一起浮动3.给父级元素设置 overf:hidden;4.使用clearfix类名1234567891011.clearfix:before,.clearfix:after&#123; content:""; display:block; height:0; line-height:0; visibility:hidden; clear:both&#125;.clearfix&#123; *zoom:1;&#125; div的几种居中方式水平居中1.给div设置宽度，并使用margin：0 auto;123456 div&#123; width:100px; height:100px; margin:0 auto; background:hotpink;&#125; 2.使用绝对定位12345678div&#123; position:absolute； width:100px; height:100px; left:50%; margin-left:-50px; background-color:skyblue;&#125; 水平垂直居中1.使用绝对定位12345678910div&#123; position:absolute； width:100px; height:100px; left:50%; top:50%; margin-left:-50px; margin-top:-50px; background-color:red;&#125; 2.使用transform属性123456789div&#123; position:absolute； width:100px; height:100px; left:50%; top:50%; transform:translate(-50%,-50%) background-color:red;&#125; 3.使用弹性布局12345678910.container&#123; display:flex; align-items:center; justify-content:center;&#125;.container div&#123; width:100px; height:100px; background-color:hotpink;&#125;]]></content>
       <categories>
         <category>CSS</category>
       </categories>
